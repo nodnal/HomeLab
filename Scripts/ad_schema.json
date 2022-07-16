@@ -1,0 +1,30 @@
+{
+    "domain": "abc.local",
+
+    "groups":[
+        {
+            "name":"Accounting"
+        },
+        {
+            "name": "Executive"
+        }
+    ],
+    "users": [
+        {
+            "first_name": "Robert",
+            "last_name": "Frost",
+            "password": "SuperSecure1",
+            "groups": [
+                "Accounting"
+            ]
+        },
+        {
+            "first_name": "Robert",
+            "last_name": "Kennedy",
+            "password": "SuperSecure2",
+            "groups": [
+                "Executive"
+            ]
+        }
+    ]
+}
